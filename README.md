@@ -1,4 +1,4 @@
 ## Laboratorio 7: K-Means
 
 - ¿Cuál implementación fue mejor? ¿Por qué?
-  - 
+  - La mejor implementación fue la implementación librerías. En base a lo realizado podemos decir que esta implementación es mejor porque es más exacto en cuanto a los cálculos y además de ello, en base a los diferentes k's probados por ambas implementaciones, el k utilizado fue diferente lo que pudo influir en el score de la silueta final. Por ejemplo, en la implementación con librerías se utilizó un k=3 y su score promedio fue 0.9925, por otro lado en la implementación sin librerías se utilizó un k=5 y su score promedio fue de 0.8637. Es importante mencionar que en la implementación sin librerías los scores obtenidos para los diferentes k's se encuentran más disperso y para la implementación con librerías los resultados son más continuos y varían únicamente por decimales. En resumen el k utilizado pudo no ser el mejor para la implementación sin librerías a pesar de que presentaba buenos resultados.
